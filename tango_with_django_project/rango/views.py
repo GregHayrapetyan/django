@@ -38,6 +38,7 @@ def show_category(request, category_name_slug):
     return render(request, 'rango/category.html', contex_dict)
 
 
+
 def add_category(request):
     form = CategoryForm
 

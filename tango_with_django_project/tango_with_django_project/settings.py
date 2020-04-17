@@ -15,8 +15,8 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
-STATIC_DIR='C:/Users/Greg/PycharmProjects/untitled/tango_with_django_project/tango_with_django_project/static'
-STATICFILES_DIRS = ['C:/Users/Greg/PycharmProjects/untitled/tango_with_django_project/tango_with_django_project/static', ]
+STATIC_DIR='C:/Users/Greg/PycharmProjects/untitled/django/tango_with_django_project/tango_with_django_project/static'
+STATICFILES_DIRS = ['C:/Users/Greg/PycharmProjects/untitled/django/tango_with_django_project/tango_with_django_project/static', ]
 MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 
 MEDIA_ROOT = MEDIA_DIR
@@ -60,7 +60,7 @@ ROOT_URLCONF = 'tango_with_django_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['C:/Users/Greg/PycharmProjects/untitled/tango_with_django_project/tango_with_django_project/templates'],
+        'DIRS': ['C:/Users/Greg/PycharmProjects/untitled/django/tango_with_django_project/tango_with_django_project/templates', ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
